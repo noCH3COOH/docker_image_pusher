@@ -10,8 +10,8 @@
 
 #portainer/portainer-ce:latest
 
-linuxserver/plex:latest
-linuxserver/gbittorrent:latest
+#linuxserver/plex:latest
+linuxserver/qbittorrent:latest
 ghcr.io/usememos/memos:latest
 fogforest/yesplaymusic:latest
 jlesage/firefox:latest
@@ -22,5 +22,4 @@ wcjiang/linux-command:latest
 qingfeng2336/it-tools:latest
 mtphotos/mt-photos:latest
 freshrss/freshrss:latest
-superng6/qbittorrent:latest
 sharelatex/sharelatex:latest
