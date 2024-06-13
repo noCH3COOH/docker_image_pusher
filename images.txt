@@ -8,4 +8,19 @@
 #mysql:8
 #mysql:latest
 
-portainer/portainer-ce:latest
+#portainer/portainer-ce:latest
+
+linuxserver/plex:latest
+linuxserver/gbittorrent:latest
+ghcr.io/usememos/memos:latest
+fogforest/yesplaymusic:latest
+jlesage/firefox:latest
+jrohy/webssh:latest
+homeassistant/home-assistant:latest
+jgraph/drawio:latest
+wcjiang/linux-command:latest
+qingfeng2336/it-tools:latest
+mtphotos/mt-photos:latest
+freshrss/freshrss:latest
+superng6/qbittorrent:latest
+sharelatex/sharelatex:latest
