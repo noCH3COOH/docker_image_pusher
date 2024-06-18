@@ -31,4 +31,6 @@
 
 #drawdb
 
-synctvorg/synctv
+#synctvorg/synctv
+
+1panel/maxkb
