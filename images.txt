@@ -31,6 +31,8 @@
 
 #drawdb
 
-#synctvorg/synctv
+--platform=linux/arm64 synctvorg/synctv
 
-1panel/maxkb
+--platform=linux/arm64 1panel/maxkb
+
+--platform=linux/arm64 wcjiang/reference
