@@ -43,6 +43,8 @@
 
 #linuxserver/qbittorrent
 
-ghcr.io/toeverything/affine-graphql:stable
-redis
-postgres
+#ghcr.io/toeverything/affine-graphql:stable
+#redis
+#postgres
+
+--platform=linux/arm64 deluan/navidrome
