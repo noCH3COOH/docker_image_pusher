@@ -41,4 +41,8 @@
 
 #hsuyelin/nas-tools
 
-linuxserver/qbittorrent
+#linuxserver/qbittorrent
+
+ghcr.io/toeverything/affine-graphql:stable
+redis
+postgres
