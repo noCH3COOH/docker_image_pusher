@@ -39,5 +39,6 @@
 
 #--platform=linux/arm64 ghcr.io/danvergara/morphos-server
 
+#hsuyelin/nas-tools
 
-hsuyelin/nas-tools
+linuxserver/qbittorrent
