@@ -47,4 +47,9 @@
 #redis
 #postgres
 
---platform=linux/arm64 deluan/navidrome
+#--platform=linux/arm64 deluan/navidrome
+
+--platform=linux/arm64 homeassistant/home-assistant
+--platform=linux/arm64 esphome/esphome
+homeassistant/home-assistant
+esphome/esphome
