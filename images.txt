@@ -54,4 +54,5 @@
 #homeassistant/home-assistant
 #esphome/esphome
 
---platform=linux/arm64 emqx/emqx
+#--platform=linux/arm64 emqx/emqx
+emqx/emqx
