@@ -66,4 +66,6 @@
 #--platform=linux/arm64 miraclemie/nas-tools
 #--platform=linux/arm64 linuxserver/plex
 
---platform=linux/arm64 linuxserver/jackett
+#--platform=linux/arm64 linuxserver/jackett
+
+--platform=linux/arm64 linuxserver/qbittorrent
