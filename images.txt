@@ -61,4 +61,7 @@
 
 #--platform=linux/arm64 gitea/gitea
 
-wwwsine/feishu2md
+#wwwsine/feishu2md
+
+--platform=linux/arm64 miraclemie/nas-tools
+--platform=linux/arm64 linuxserver/plex
