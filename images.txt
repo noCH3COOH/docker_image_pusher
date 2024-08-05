@@ -59,4 +59,6 @@
 
 #--platform=linux/arm64 hslr/sun-panel
 
---platform=linux/arm64 gitea/gitea
+#--platform=linux/arm64 gitea/gitea
+
+wwwsine/feishu2md
