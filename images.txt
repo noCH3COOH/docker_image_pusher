@@ -63,5 +63,7 @@
 
 #wwwsine/feishu2md
 
---platform=linux/arm64 miraclemie/nas-tools
---platform=linux/arm64 linuxserver/plex
+#--platform=linux/arm64 miraclemie/nas-tools
+#--platform=linux/arm64 linuxserver/plex
+
+--platform=linux/arm64 linuxserver/jackett
