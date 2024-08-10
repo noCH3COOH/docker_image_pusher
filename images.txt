@@ -68,4 +68,6 @@
 
 #--platform=linux/arm64 linuxserver/jackett
 
---platform=linux/arm64 linuxserver/qbittorrent
+#--platform=linux/arm64 linuxserver/qbittorrent
+
+--platform=linux/arm64 frooodle/s-pdf
