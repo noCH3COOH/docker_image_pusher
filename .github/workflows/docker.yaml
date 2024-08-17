@@ -134,8 +134,8 @@ jobs:
             
             # 构建新的镜像名
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name/$user_name$platform_suffix"_"$version"
-            echo "docker tag $image$new_image"
-            docker tag $image$new_image
+            echo "docker tag $image $new_image"
+            docker tag $image $new_image
             echo "docker push $new_image"
             docker push $new_image
             echo "开始清理磁盘空间"

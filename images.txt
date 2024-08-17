@@ -79,5 +79,5 @@
 #m1k1o/neko:microsoft-edge
 #--platform=linux/arm64 danielszabo99/microbin
 
-library/hello-world
 --platform=linux/arm64 library/hello-world
+library/hello-world
