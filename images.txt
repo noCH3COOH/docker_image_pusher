@@ -70,4 +70,8 @@
 
 #--platform=linux/arm64 linuxserver/qbittorrent
 
---platform=linux/arm64 frooodle/s-pdf
+#--platform=linux/arm64 frooodle/s-pdf
+
+--platform=linux/arm64 m1k1o/neko:firefox
+m1k1o/neko:firefox
+--platform=linux/arm64 danielszabo99/microbin
