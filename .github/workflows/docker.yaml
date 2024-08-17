@@ -122,10 +122,20 @@ jobs:
             
             # 获取 镜像名:版本号  例如alist:latest
             image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
+
             # 获取用户名，例如xiaoyaliu
-            user_name=$(echo "$image" | awk -F'/' '{print $1}')
+            # 检查镜像名中是否包含斜杠，以确定用户名
+            if [[ "$image" == *"/"* ]]; then
+                # 如果包含斜杠，则用户名是斜杠前的部分
+                user_name=$(echo "$image" | awk -F'/' '{print $1}')
+            else
+                # 如果不包含斜杠，则使用默认的用户名
+                user_name="docker.io-library"
+            fi
+
             # 获取镜像名  例如alist
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
+
             # 获取版本号  例如latest
             version=$(echo "$image_name_tag" | awk -F':' '{if (NF>1) print $2}')
 
