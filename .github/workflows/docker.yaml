@@ -138,7 +138,7 @@ jobs:
             version="${version%%@*}"
 
             # 构建新的镜像名
-            new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name/$user_name$platform_suffix"_"$version"
+            new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name:$user_name$platform_suffix"_"$version"
 
             # 输出所有信息
             echo "=============================================================================="
