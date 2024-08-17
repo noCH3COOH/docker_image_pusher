@@ -109,7 +109,7 @@ jobs:
             echo "docker pull $line"
             docker pull $line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
-            echo "platform is $platform"
+            
             # 如果存在架构信息 将架构信息拼到镜像名称版本号里
             if [ -z "$platform" ]; then
                 platform_suffix=""
@@ -128,12 +128,27 @@ jobs:
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
             # 获取版本号  例如latest
             version=$(echo "$image_name_tag" | awk -F':' '{if (NF>1) print $2}')
+
+            # 如果 $version 为空，则设置为 latest
+            if [ -z "$version" ]; then
+                version="latest"
+            fi
             
             # 将@sha256:等字符删除
             version="${version%%@*}"
-            
+
             # 构建新的镜像名
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name/$user_name$platform_suffix"_"$version"
+
+            # 输出所有信息
+            echo "=============================================================================="
+            echo "| [INFO] 开始处理镜像: $image"
+            echo "| * Platform: $platform"
+            echo "| * Image: $user_name/$image_name"
+            echo "| * Version: $version"
+            echo "| * Name in aliyun: $new_image"
+            echo "=============================================================================="
+            
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
