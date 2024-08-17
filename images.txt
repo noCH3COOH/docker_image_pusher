@@ -102,6 +102,9 @@
 #--platform=linux/arm64 frooodle/s-pdf
 #--platform=linux/arm64 danielszabo99/microbin
 
---platform=linux/arm64 xhofe/alist:latest
-xhofe/alist:latest
-xiaoyaliu/alist
+#--platform=linux/arm64 xhofe/alist:latest
+#xhofe/alist:latest
+#xiaoyaliu/alist
+
+--platform=linux/arm64 xhofe/alist-aria2
+xhofe/alist-aria2
