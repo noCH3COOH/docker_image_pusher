@@ -72,6 +72,9 @@
 
 #--platform=linux/arm64 frooodle/s-pdf
 
---platform=linux/arm64 m1k1o/neko:firefox
+#--platform=linux/arm64 m1k1o/neko:firefox
 m1k1o/neko:firefox
+m1k1o/neko:opera
+m1k1o/neko:google-chrome
+m1k1o/neko:microsoft-edge
 --platform=linux/arm64 danielszabo99/microbin
