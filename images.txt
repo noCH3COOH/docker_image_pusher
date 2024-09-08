@@ -114,5 +114,8 @@
 #--platform=linux/arm64/v8 bestoray/pgyvpn
 #--platform=linux/arm64/v8 linkease/istorepanel
 
-sameersbn/bind
---platform=linux/arm64/v8 sameersbn/bind
+#sameersbn/bind
+#--platform=linux/arm64/v8 sameersbn/bind
+
+technitium/dns-server
+--platform=linux/arm64/v8 technitium/dns-server
