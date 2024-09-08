@@ -111,5 +111,8 @@
 
 #apache:2.4
 
---platform=linux/arm64/v8 bestoray/pgyvpn
---platform=linux/arm64/v8 linkease/istorepanel
+#--platform=linux/arm64/v8 bestoray/pgyvpn
+#--platform=linux/arm64/v8 linkease/istorepanel
+
+sameersbn/bind
+--platform=linux/arm64/v8 sameersbn/bind
