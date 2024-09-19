@@ -123,5 +123,5 @@
 #deluan/navidrome:latest
 #--platform=linux/arm64 deluan/navidrome:latest
 
-amilys/embyserver
---platform=linux/arm64 amilys/embyserver
+emby/embyserver
+--platform=linux/arm64 emby/embyserver
