@@ -117,5 +117,8 @@
 #sameersbn/bind
 #--platform=linux/arm64/v8 sameersbn/bind
 
-technitium/dns-server
---platform=linux/arm64/v8 technitium/dns-server
+#technitium/dns-server
+#--platform=linux/arm64/v8 technitium/dns-server
+
+deluan/navidrome:latest
+--platform=linux/arm64 deluan/navidrome:latest
