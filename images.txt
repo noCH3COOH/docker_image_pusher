@@ -120,5 +120,8 @@
 #technitium/dns-server
 #--platform=linux/arm64/v8 technitium/dns-server
 
-deluan/navidrome:latest
---platform=linux/arm64 deluan/navidrome:latest
+#deluan/navidrome:latest
+#--platform=linux/arm64 deluan/navidrome:latest
+
+emby/embyserber:latest
+--platform=linux/arm64 emby/embyserber:latest
