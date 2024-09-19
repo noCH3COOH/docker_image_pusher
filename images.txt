@@ -124,4 +124,4 @@
 #--platform=linux/arm64 deluan/navidrome:latest
 
 emby/embyserver
---platform=linux/arm64 emby/embyserver
+--platform=linux/arm64/v8 emby/embyserver
