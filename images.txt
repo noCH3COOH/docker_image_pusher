@@ -126,4 +126,5 @@
 #emby/embyserver
 #emby/embyserver_arm64v8
 
---platform=linux/arm64 qingfeng2336/it-tools:latest
+#--platform=linux/arm64 qingfeng2336/it-tools:latest
+--platform=linux/arm64 jonnyan404/verysync
