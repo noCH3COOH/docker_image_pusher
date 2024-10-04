@@ -131,6 +131,8 @@
 #--platform=linux/arm64 jonnyan404/verysync
 #jonnyan404/verysync
 
-sharelatex/sharelatex
-mongo:4.0
-redis:5
+#sharelatex/sharelatex
+#mongo:4.0
+#redis:5
+
+redis:6.2
