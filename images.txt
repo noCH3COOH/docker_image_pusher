@@ -135,4 +135,6 @@
 #mongo:4.0
 #redis:5
 
-redis:6.2
+#redis:6.2
+
+wrm244/sharelatex:with-texlive-full
