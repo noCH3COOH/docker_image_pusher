@@ -137,4 +137,6 @@
 
 #redis:6.2
 
-wrm244/sharelatex:with-texlive-full
+#wrm244/sharelatex:with-texlive-full
+
+mongo:4.4
