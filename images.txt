@@ -139,4 +139,5 @@
 
 #wrm244/sharelatex:with-texlive-full
 
-mongo:4.4
+#mongo:4.4
+mongo:6.0
