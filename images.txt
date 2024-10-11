@@ -142,5 +142,8 @@
 #mongo:4.4
 #mongo:6.0
 
-helloz/transmission
---platform=linux/arm64 helloz/transmission
+#helloz/transmission
+#--platform=linux/arm64 helloz/transmission
+
+p3terx/aria2-pro
+--platform=linux/arm64 p3terx/aria2-pro
