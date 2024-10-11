@@ -140,4 +140,7 @@
 #wrm244/sharelatex:with-texlive-full
 
 #mongo:4.4
-mongo:6.0
+#mongo:6.0
+
+helloz/transmission
+--platform=linux/arm64 helloz/transmission
