@@ -145,5 +145,8 @@
 #helloz/transmission
 #--platform=linux/arm64 helloz/transmission
 
-p3terx/aria2-pro
---platform=linux/arm64 p3terx/aria2-pro
+#p3terx/aria2-pro
+#--platform=linux/arm64 p3terx/aria2-pro
+
+allanpk716/ChineseSubFinder
+--platform=linux/arm64 allanpk716/ChineseSubFinder
