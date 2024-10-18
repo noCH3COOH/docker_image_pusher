@@ -148,5 +148,8 @@
 #p3terx/aria2-pro
 #--platform=linux/arm64 p3terx/aria2-pro
 
-allanpk716/ChineseSubFinder
---platform=linux/arm64 allanpk716/ChineseSubFinder
+#allanpk716/ChineseSubFinder
+#--platform=linux/arm64 allanpk716/ChineseSubFinder
+
+ghcr.io/swingmx/swingmusic:latest
+--platform=linux/arm64 ghcr.io/swingmx/swingmusic:latest
