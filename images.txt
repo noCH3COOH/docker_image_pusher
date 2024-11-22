@@ -159,5 +159,8 @@
 
 #amtoaer/bili-sync-rs
 
-httpd:latest
---platform=linux/arm64 httpd:latest
+#httpd:latest
+#--platform=linux/arm64 httpd:latest
+
+nginx:latest
+--platform=linux/arm64 nginx:latest
