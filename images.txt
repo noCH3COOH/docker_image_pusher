@@ -157,4 +157,7 @@
 #ellermister/mybili
 #redis
 
-amtoaer/bili-sync-rs
+#amtoaer/bili-sync-rs
+
+docker.io/library/apache:latest
+--platform=linux/arm64 docker.io/library/apache:latest
