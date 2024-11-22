@@ -165,4 +165,5 @@
 #nginx:latest
 #--platform=linux/arm64 nginx:latest
 
-youshandefeiyang/allinone
+#youshandefeiyang/allinone
+lovechen/embyserver
