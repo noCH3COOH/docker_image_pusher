@@ -162,5 +162,7 @@
 #httpd:latest
 #--platform=linux/arm64 httpd:latest
 
-nginx:latest
---platform=linux/arm64 nginx:latest
+#nginx:latest
+#--platform=linux/arm64 nginx:latest
+
+youshandefeiyang/allinone
