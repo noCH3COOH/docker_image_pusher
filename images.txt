@@ -159,5 +159,5 @@
 
 #amtoaer/bili-sync-rs
 
-docker.io/library/apache:latest
---platform=linux/arm64 docker.io/library/apache:latest
+httpd:latest
+--platform=linux/arm64 httpd:latest
