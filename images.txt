@@ -168,4 +168,4 @@
 #youshandefeiyang/allinone
 #lovechen/embyserver
 
-jxxghp/nas-tools
+--platform=linux/amd64 jxxghp/nas-tools
