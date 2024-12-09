@@ -170,4 +170,6 @@
 
 #hsuyelin/nas-tools
 
-allanpk716/chinesesubfinder
+#allanpk716/chinesesubfinder
+
+superng6/qbittorrentee
