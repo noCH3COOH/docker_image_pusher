@@ -168,4 +168,6 @@
 #youshandefeiyang/allinone
 #lovechen/embyserver
 
-hsuyelin/nas-tools
+#hsuyelin/nas-tools
+
+allanpk716/chinesesubfinder
