@@ -172,4 +172,6 @@
 
 #allanpk716/chinesesubfinder
 
-superng6/qbittorrentee
+#superng6/qbittorrentee
+
+--platform=linux/arm64 amtoaer/bili-sync-rs
