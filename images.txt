@@ -174,4 +174,6 @@
 
 #superng6/qbittorrentee
 
---platform=linux/arm64 amtoaer/bili-sync-rs
+#--platform=linux/arm64 amtoaer/bili-sync-rs
+
+ubuntu:22.04
