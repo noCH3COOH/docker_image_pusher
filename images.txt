@@ -176,4 +176,7 @@
 
 #--platform=linux/arm64 amtoaer/bili-sync-rs
 
-ubuntu:22.04
+#ubuntu:22.04
+
+ubuntu:20.04
+ubuntu:18.04
