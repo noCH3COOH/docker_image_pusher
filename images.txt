@@ -183,5 +183,7 @@
 
 #nastools/nas-tools
 
---platform=linux/arm64 seriousm4x/upsnap
-seriousm4x/upsnap
+#--platform=linux/arm64 seriousm4x/upsnap
+#seriousm4x/upsnap
+
+frooodle/s-pdf
