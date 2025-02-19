@@ -186,4 +186,7 @@
 #--platform=linux/arm64 seriousm4x/upsnap
 #seriousm4x/upsnap
 
-frooodle/s-pdf
+#frooodle/s-pdf
+
+--platform=linux/arm64 corentinth/it-tools
+corentinth/it-tools
