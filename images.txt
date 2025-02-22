@@ -188,5 +188,8 @@
 
 #frooodle/s-pdf
 
---platform=linux/arm64 corentinth/it-tools
+#--platform=linux/arm64 corentinth/it-tools
 corentinth/it-tools
+
+
+alpine
