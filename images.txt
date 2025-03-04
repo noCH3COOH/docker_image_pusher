@@ -189,7 +189,11 @@
 #frooodle/s-pdf
 
 #--platform=linux/arm64 corentinth/it-tools
-corentinth/it-tools
+#corentinth/it-tools
 
 
-alpine
+#alpine
+
+--platform=linux/arm64 centralx/clash
+centralx/clash
+--platform=linux/arm64/v8 centralx/clash
