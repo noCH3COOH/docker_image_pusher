@@ -194,6 +194,9 @@
 
 #alpine
 
---platform=linux/arm64 centralx/clash
-centralx/clash
---platform=linux/arm64/v8 centralx/clash
+#--platform=linux/arm64 centralx/clash
+#centralx/clash
+#--platform=linux/arm64/v8 centralx/clash
+
+--platform=linux/arm64 vaultwarden/server
+vaultwarden/server
