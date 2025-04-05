@@ -198,5 +198,9 @@
 #centralx/clash
 #--platform=linux/arm64/v8 centralx/clash
 
---platform=linux/arm64 vaultwarden/server
-vaultwarden/server
+#--platform=linux/arm64 vaultwarden/server
+#vaultwarden/server
+
+# 20250405@1128
+--platform=linux/arm64 amtoaer/bili-sync-rs
+amtoaer/bili-sync-rs
