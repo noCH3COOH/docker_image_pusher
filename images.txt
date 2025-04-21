@@ -202,5 +202,9 @@
 #vaultwarden/server
 
 # 20250405@1128
---platform=linux/arm64 amtoaer/bili-sync-rs
+#--platform=linux/arm64 amtoaer/bili-sync-rs
 amtoaer/bili-sync-rs
+
+--platform=linux/arm64 ubuntu:22.04
+--platform=linux/arm64 ubuntu:20.04
+--platform=linux/arm64 ubuntu:18.04
