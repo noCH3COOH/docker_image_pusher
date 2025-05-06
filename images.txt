@@ -209,4 +209,7 @@ amtoaer/bili-sync-rs
 #--platform=linux/arm64 ubuntu:20.04
 #--platform=linux/arm64 ubuntu:18.04
 
---platform=linux/arm64 ionewu/owjdxb_a64
+#--platform=linux/arm64 ionewu/owjdxb_a64
+
+--platform=linux/arm64 tailscale/tailscale
+tailscale/tailscale
