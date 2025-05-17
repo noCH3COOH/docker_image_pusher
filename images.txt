@@ -211,5 +211,7 @@
 
 #--platform=linux/arm64 ionewu/owjdxb_a64
 
---platform=linux/arm64 tailscale/tailscale
-tailscale/tailscale
+#--platform=linux/arm64 tailscale/tailscale
+#tailscale/tailscale
+
+laoyutang/clash-and-dashboard
