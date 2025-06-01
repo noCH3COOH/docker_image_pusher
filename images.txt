@@ -216,4 +216,5 @@
 
 #laoyutang/clash-and-dashboard
 
-rustdesk/rustdesk-server
+#rustdesk/rustdesk-server
+rustdesk/rustdesk-server-s6
