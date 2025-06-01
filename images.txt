@@ -214,4 +214,6 @@
 #--platform=linux/arm64 tailscale/tailscale
 #tailscale/tailscale
 
-laoyutang/clash-and-dashboard
+#laoyutang/clash-and-dashboard
+
+rustdesk/rustdesk-server
