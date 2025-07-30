@@ -217,4 +217,6 @@
 #laoyutang/clash-and-dashboard
 
 #rustdesk/rustdesk-server
-rustdesk/rustdesk-server-s6
+#rustdesk/rustdesk-server-s6
+
+jeessy/ddns-go
